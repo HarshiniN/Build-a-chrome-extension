@@ -1,0 +1,24 @@
+ {
+    "name": "Simple contentscript",
+    "version": "1.0",
+    "description": "Build an extension",
+    "permissions": ["activeTab","declarativeContent","storage"],
+	"page_action":
+{
+	"default_icon": "icon19.png",
+	"default_title": "simple content script"
+},
+"content_scripts": [
+{
+	"matches": [
+		"https://www.thingiverse.com/*"
+	],
+	"js": ["contentscript.js"]
+}
+],
+"icons": {
+	"48": "icon48.png",
+	"128": "icon128.png"
+},
+"manifest_version": 2
+}
