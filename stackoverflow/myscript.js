@@ -4,5 +4,5 @@ if (document.title.indexOf("Google") != -1) {
     var t = document.createTextNode("CLICK ME");
     btn.appendChild(t);
     //Appending to DOM 
-    document.body.appendChild(btn);
+    document.header.appendChild(btn);
 }
