@@ -1,6 +1,6 @@
 {
-"name":"Inject DOM",
-"description":"http://stackoverflow.com/questions/14068879",
+"name":"Fractory.in extension",
+"description":"A chrome extension to add a button",
 "version":"1",
 "manifest_version":2,
 "content_scripts": [
@@ -9,5 +9,8 @@
         "js": ["myscript.js"],
         "run_at": "document_end"
       }
-  ]
+  ],
+"icons": {
+      "16": "favicon.png"
+    }
 }
