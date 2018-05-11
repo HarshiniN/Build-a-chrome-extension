@@ -1,5 +1,4 @@
 var button = document.createElement("button");
-button.icon = 'favicon.png';
 	button.textContent = 'PRINT ON FRACTORY.IN';
 	button.textFont = 'courier'
 	button.style.height = '45px';
